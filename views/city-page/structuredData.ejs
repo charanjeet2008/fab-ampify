@@ -1,0 +1,72 @@
+<% var itemList = [] %>
+<% var hotels = data.propertyListing %>
+<% for(var id in hotels) {  %>
+<% var position = parseInt(id) + 1%>
+<% var hotel = hotels[id] %>
+<% itemList.push({
+    "@type":"ListItem",
+    "position":position,
+    "url": hotel.url.replace('mapi','amp')
+}) %>
+
+<%}%>
+
+<script type="application/ld+json">
+        [{
+          "@context": "http://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://www.fabhotels.com",
+              "name": "All Hotels"
+            }
+          },{
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "<%= mainSite %>/",
+              "name": "Hotels in <%= location.replace('-',' ').split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '); %>"
+            }
+          }]
+        },
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "url": "https://www.fabhotels.com",
+          "logo": "https://static.fabhotels.com/massets/img/logo_w.svg",
+          "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": "+91 70 4242 4242",
+            "contactType": "customer service"
+          }],
+          "sameAs" : [
+            "https://www.facebook.com/fabhotelscom/",
+            "https://twitter.com/FabHotels",
+            "https://plus.google.com/+Fabhotels",
+            "https://www.instagram.com/fabhotels/",
+            "https://www.pinterest.com/fabhotels/"
+           ]
+        },
+        {
+          "@context": "http://schema.org",
+          "@type": "ItemList",
+          "itemListElement":<%- JSON.stringify(itemList) %>
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.fabhotels.com/",
+            "name":"FabHotels",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.fabhotels.com/query?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+                "name": "FabHotels",
+                "alternateName": "FabHotels",
+                "url": "https://www.fabhotels.com"
+            }
+        }
+        ]
+    </script>

@@ -1,0 +1,25 @@
+<div class="hotel__desc clearfix">
+    <a href="<%= hotel.url.replace('mapi','amp') %>" >
+        <h3>
+            <%= hotel.name %>
+        </h3>
+        <div class="hotel__data clearfix">
+            <div class="hotel__data__left">
+                <div class="hotel__loc">
+                    <span class="icon-Locations"></span>
+                    <%= hotel.landmark %>
+                </div>
+            </div>
+            <div class="hotel__price-wrap">
+                        
+                        {{#<%= hotel.id %>.actualPrice}}
+                            <div>
+                                    <span class="hotel__icon-rupees icon__rupees"></span>
+                                    <span class="hotel__price">{{<%= hotel.id %>.actualPrice}}</span>
+                            </div>
+                        {{/<%= hotel.id %>.actualPrice}}
+            </div>
+        </div>
+    </a>
+</div>
+

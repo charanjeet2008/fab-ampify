@@ -1,0 +1,22 @@
+.error-page {
+	text-align: center;
+    padding: 30px 0 30px 0;
+}
+.error_content_text {
+	 text-align: center;
+	 padding: 0 20px;
+}
+.error_content_text p{
+	margin-bottom: 10px;
+	font-size: 13px;
+    line-height: 18px;
+    color: #464646;
+    padding: 10px 0 0;
+    font-weight: 300;
+}
+.error_content_text a {
+	text-decoration: none;
+	outline: none;
+	    color: #3d80db;
+	    font-size: 13px;
+}

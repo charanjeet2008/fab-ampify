@@ -1,0 +1,22 @@
+        <div class="tabs__content">
+           <div class="tab-content tab-content--active">
+                <% for(var id in hotels) {  %>
+                  <% var src = 'http://localhost:3000/hotelsPrice'%>
+                   <amp-list width="50" height="39"  layout="responsive" items="metadata.data.propertyListing" src="<%= src%>">
+                     <template type="amp-mustache">
+
+                    <% var hotel = hotels[id] %>
+                            <div class="city-gallery-list">
+
+                                 <%- include imageGallery.ejs %>
+                                 <%- include hotelBrief.ejs %>
+
+                            </div>
+
+                    </template>
+                  </amp-list>
+                <% } %>
+            </div>
+        </div>
+</template>
+	</amp-list

@@ -1,0 +1,13 @@
+
+{
+    "localBaseUrl": "http://local.fabhotels.com",
+    "localMwebUrl": "http://local.fabhotels.com/mapi/mweb",
+    "stagingBaseUrl": "https://staging.fabhotels.com",
+    "stagingMwebUrl": "https://staging.fabhotels.com/mapi/mweb",
+    "prodBaseUrl": "https://www.fabhotels.com",
+    "prodMwebUrl": "https://www.fabhotels.com/mapi/mweb",
+    "devBaseUrl": "http://localhost:3000",
+    "devMwebUrl": "localhost:3000",
+    "preprodBaseUrl": "https://preprod.fabhotels.com",
+    "preprodMwebUrl": "https://preprod.fabhotels.com/mapi/mweb"
+}

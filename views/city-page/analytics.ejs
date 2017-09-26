@@ -1,0 +1,60 @@
+<amp-analytics type="googleanalytics">
+        <script type="application/json">
+        {
+          "vars": {
+                   "account": "UA-64337208-1"
+               },
+               
+          "triggers": {
+               "trackPageview": {
+                  "on": "visible",
+                  "request": "pageview"
+                },            
+
+               "mapIconClick": {
+                    "on": "click",
+                    "selector": ".listing__map",
+                    "request": "event",
+                    "vars": {
+                      "eventCategory": "List Page",
+                      "eventAction": "click",
+                      "eventLabel": "AMP_LIST_CLICK_MAP_ICON"
+                    }
+               },
+
+                "callIconClick": {
+                    "on": "click",
+                    "selector": ".head__icon-phone",
+                    "request": "event",
+                    "vars": {
+                      "eventCategory": "List Page",
+                      "eventAction": "click",
+                      "eventLabel": "AMP_LIST_CLICK_CALL_ICON"
+                    }
+               },
+
+                "checkinClick": {
+                    "on": "click",
+                    "selector": ".calender-range-details",
+                    "request": "event",
+                    "vars": {
+                      "eventCategory": "List Page",
+                      "eventAction": "click",
+                      "eventLabel": "AMP_LIST_CLICK_CHECKIN"
+                    }
+               },
+
+                "hamburgerClick": {
+                    "on": "click",
+                    "selector": ".sidebar__nav",
+                    "request": "event",
+                    "vars": {
+                      "eventCategory": "List Page",
+                      "eventAction": "click",
+                      "eventLabel": "AMP_LIST_CLICK_HAMBURGER"
+                    }
+               }          
+            }
+        }
+        </script>
+    </amp-analytics>

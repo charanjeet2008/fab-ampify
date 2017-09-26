@@ -1,0 +1,22 @@
+ <div class="city-gallery">
+    <amp-carousel
+      width="400" height="226"
+      layout="responsive"
+      type="slides"      
+      class="show">  
+      <% for(var imgId in hotel.images.list){ %>
+            
+           <% var imageUrl = hotel.images.baseUrl  + hotel.images.list[imgId] %>
+           <a href="<%= hotel.url.replace('mapi','amp') %>" >
+             <amp-img src="<%= imageUrl %>"
+                        width="400" height="226"
+                        layout="responsive" on="tap:gallery-lightbox"
+                        role="button" tabindex="0">
+             </amp-img>
+           </a>
+            
+      <%} %>
+
+  </amp-carousel>
+                           
+</div>

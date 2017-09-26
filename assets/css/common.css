@@ -1,0 +1,360 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clear {
+  display: block;
+  clear: both;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after, .clearfix:before {
+  content: ' ';
+  display: block;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  p:empty {
+    display: none;
+  }
+
+/*
+ *  Font Icons
+ */
+
+@font-face {
+    font-family: icomoon;
+    src: url(//static.fabhotels.com/massets/fonts/fabfonts_v5_4.eot?l8nb7v);
+    src: url(//static.fabhotels.com/massets/fonts/fabfonts_v5_4.eot?l8nb7v#iefix) format('embedded-opentype'), url(//static.fabhotels.com/massets/fonts/fabfonts_v5_4.ttf?l8nb7v) format('truetype'), url(//static.fabhotels.com/massets/fonts/fabfonts_v5_4.woff?l8nb7v) format('woff'), url(//static.fabhotels.com/massets/fonts/fabfonts_v5_4.svg?l8nb7v#fabfonts_v1) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: Fab-Icons;
+    src: url(//static.fabhotels.com/massets/fonts/icon-font_v2.eot);
+    src: url(//static.fabhotels.com/massets/fonts/icon-font_v2.eot?#iefix) format('embedded-opentype'), url(//static.fabhotels.com/massets/fonts/icon-font_v2.woff) format('woff'), url(//static.fabhotels.com/massets/fonts/icon-font_v2.ttf) format('truetype'), url(//static.fabhotels.com/massets/fonts/icon-font_v2.svg#svgFontName) format('svg')
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class*=" icon__"]:before,
+[class^=icon__]:before {
+    font-family: Fab-Icons;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.icon-Phone:before {
+  content: "\e917";
+}
+.icon-Menu:before {
+    content: "\e914";
+}
+.icon-location:before {
+    content: "\e913";
+}
+.icon-Nearby:before {
+    content: "\e916";
+}
+.icon-Activity:before {
+    content: "\e904";
+}
+.icon-Dropdown-arrow:before {
+    content: "\e90c";
+}
+.icon-Arrow:before {
+    content: "\e907";
+}
+.icon-Review:before {
+  content: "\e91a";
+}
+.icon-Price:before {
+    content: "\e919";
+}
+.icon__location:before {
+      content: "w";
+}
+.icon-Airport:before {
+    content: "\e91f";
+}
+.icon-Dropdown-arrow:before {
+    content: "\e90c";
+}
+.icon-Locations:before {
+    content: "\e913";
+}
+.icon__rupees:before {
+    content: "q";
+   font-size:14px;
+}
+.icon-Facebook:before {
+    content: "\e90d";
+}
+.icon-Instgram:before {
+    content: "\e90f";
+}
+.icon-Twitter:before {
+    content: "\e91d";
+}
+.icon-g-plus:before {
+    content: "\e90e";
+}
+.icon-Search:before {
+    content: "\e91b";
+}
+.conference-icon:before{
+    content:"\e900";
+}
+/*
+ *  Font Icons Ends
+ */
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4;
+    font-size: 62.5%;
+    line-height: 1;
+}
+.wrapper {
+ 	  max-width: 100%;
+	  width: 100%;
+	  margin: 0 auto;
+    overflow: hidden;
+}
+.header {
+    margin-bottom: 0;
+    box-shadow: none;
+    top: 0;
+    position: relative;
+    width: 100%;
+    background-color: #1e254a;
+    color: #fff;
+    line-height: 56px;
+    height: 56px;
+}
+.header #sample-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    padding: 13px;
+}
+.head__phone-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px
+}
+.head__icon-hamburger {
+    width: 40px;
+    margin: 17px 0 0;
+    float: left;
+    padding: 0 10px;
+    font-size: 21px;
+    cursor: pointer;
+    color: #fff;
+    background: none;
+    outline: none;
+    border:0;
+}
+.logo {
+        position: absolute;
+    left: 40px;
+    right: 40px;
+    top: 0;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+}
+.logo amp-img {
+  vertical-align: middle;
+}
+.call-icon {
+      background: url(/massets/sprite.png) 0 0 no-repeat;
+      height: 21px;
+      width: 21px;
+      cursor: pointer;
+      position: absolute;
+      right: 10px;
+      top: 16px;
+      z-index: 1;
+}
+amp-carousel {
+      margin: 0;
+}
+amp-carousel .selected {
+      border: solid 2px red;
+}
+
+/**
+*
+* Footer Style
+*
+**/
+
+.footer {
+    background-color: #323232;
+    padding: 15px 0 90px 0;
+}
+.footer-bx-hd {
+    font-size: 11px;
+    padding: 0;
+    text-align: center;
+    color: #fafafa;
+}
+.footer-social-bx {
+    padding: 0 24%;
+    margin: 15px 0 0;
+}
+.footer-social-bx a {
+    width: 25%;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+}
+.footer-social-c {
+    border: 1px solid #efefef;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    padding: 9px;
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    font-size: 16px;
+}
+.footer-social-bx span {
+    color: #fff;
+}
+.footer-menu-bx {
+    padding: 0 12%;
+    margin-top: 25px;
+}
+.footer-menu-bx a {
+    width: 24%;
+    font-size: 12px;
+    text-decoration: none;
+        float: left;
+    color: #fafafa;
+    text-align: center;
+}
+.footer-menu-bx span {
+    width: 3px;
+    height: 3px;
+    float: left;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #fff;
+    margin: 4px 0 0;
+}
+.footer-copy {
+    width: 100%;
+    height: auto;
+    font-size: 11px;
+    opacity: .5;
+    margin-top: 15px;
+    color: #fafafa;
+    text-align: center;
+}
+/* Sidebar css*/
+
+#drawermenu {
+    background: url(//static.fabhotels.com/massets/img/sbv5.png?4) #1E254A;
+    width: 80%;
+}
+.sidebar__list {
+    margin-top: 50px;
+}
+.sidebar__link {
+    color: #FFF;
+    line-height: 50px;
+    height: 50px;
+    vertical-align: middle;
+    display: block;
+    padding-left: 14px;
+    font-size: 19px;
+}
+.sidebar__text {
+    float: left;
+}
+.icon-Activity {
+    color: #ff0;
+}
