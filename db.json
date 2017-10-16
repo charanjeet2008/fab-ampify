@@ -2,41 +2,7 @@
   "hotelList": {
     "success": true,
     "messages": "",
-    "session": {
-      "expire": null,
-      "YII_CSRF_TOKEN": "9e32852b0624c620c3f19addf96ed35e5f3f0581",
-      "isTokenInvalid": false,
-      "currency": "USD"
-    },
     "metadata": {
-      "baseUrl": "https:\/\/www.fabhotels.com\/mapi",
-      "meta": {
-        "title": "Budget Hotels in New Delhi, Online Budget Hotel Booking in New Delhi - FabHotels",
-        "meta": [
-          {
-            "name": "description",
-            "content": "Book Budget Hotels in New Delhi, India - Get best deals on online booking of New Delhi Budget Hotels with FabHotels Photo Match Guarantee Free Wifi AC Room Free Breakfast Free Cancellation"
-          },
-          {
-            "name": "keywords",
-            "content": "fabhotels in new delhi, budget hotels in new delhi, hotels in new delhi, new delhi hotel booking online, book hotels in new delhi online, new delhi hotel list"
-          }
-        ],
-        "link": [
-          {
-            "rel": "canonical",
-            "href": "https:\/\/www.fabhotels.com\/hotels-in-new-delhi\/"
-          },
-          {
-            "rel": "alternate",
-            "href": "android-app:\/\/com.fabhotels.guests\/https\/www.fabhotels.com\/hotels-in-new-delhi\/"
-          },
-          {
-            "rel": "amphtml",
-            "href": "https:\/\/www.fabhotels.com\/amp\/hotels-in-new-delhi\/"
-          }
-        ]
-      },
       "data": {
         "graceBookingHour": 4,
         "localityListing": [
@@ -103,7 +69,7 @@
                 "519-9587-20170207013714.jpg",
                 "519-9588-20170207013801.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Modi Tower, Nehru Place",
@@ -135,7 +101,7 @@
                 "157-14410-20170821011152.jpg",
                 "157-14411-20170821011259.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Safdarjung Club",
@@ -178,7 +144,7 @@
                 "611-14535-20170821023323.jpg",
                 "611-14536-20170821023353.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Lotus Temple, Nehru Place",
@@ -224,7 +190,7 @@
                 "596-14485-20170821013926.jpg",
                 "596-14486-20170821014012.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Karol Bagh Market",
@@ -259,7 +225,7 @@
                 "458-14878-20170821053657.jpg",
                 "458-14879-20170821053832.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "South Delhi",
@@ -299,7 +265,7 @@
                 "740-13611-20170718015501.jpg",
                 "740-13612-20170718015532.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Greater Kailash",
@@ -335,7 +301,7 @@
                 "642-14923-20170821055929.jpg",
                 "642-14925-20170821055946.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near New Delhi Railway Station",
@@ -370,7 +336,7 @@
                 "487-14639-20170821033842.jpg",
                 "487-14641-20170821033923.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "East Of Kailash",
@@ -396,7 +362,7 @@
                 "742-13694-20170720080442.jpg",
                 "10.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near New Delhi Railway Station",
@@ -429,7 +395,7 @@
                 "534-10244-20170228080549.jpg",
                 "534-10245-20170228080610.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Nehru Place",
@@ -468,7 +434,7 @@
                 "640-15774-20170918074719.jpg",
                 "640-15775-20170918074738.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "East Of Kailash",
@@ -497,7 +463,7 @@
                 "790-15581-20170912060433.jpg",
                 "790-15582-20170912060500.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Bharti Eye Hospital, GK1",
@@ -531,7 +497,7 @@
                 "540-14684-20170821035707.jpg",
                 "540-14685-20170821035722.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near DT Cinemas, Greater Kailash",
@@ -571,7 +537,7 @@
                 "662-11107-20170414045021.JPG",
                 "662-11108-20170414045234.JPG"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Hauz Khas Village",
@@ -605,7 +571,7 @@
                 "562-11177-20170417064821.jpg",
                 "562-11178-20170417064907.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Karol Bagh",
@@ -644,7 +610,7 @@
                 "739-15328-20170830080421.jpg",
                 "739-15329-20170830080435.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Karol Bagh Market",
@@ -681,7 +647,7 @@
                 "484-14728-20170821042239.jpg",
                 "484-14729-20170821042307.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Indira Gandhi International Airport",
@@ -712,7 +678,7 @@
                 "599-9391-20170204080130.jpg",
                 "599-9392-20170204080147.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Green Park Market",
@@ -746,7 +712,7 @@
                 "594-8062-20161202053646.jpg",
                 "594-8063-20161202053701.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Friends Colony",
@@ -771,7 +737,7 @@
                 "792-15730-20170918104449.jpg",
                 "792-15731-20170918104500.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Indira Gandhi International Airport",
@@ -818,7 +784,7 @@
                 "575-8035-20161130020011.jpg",
                 "575-8037-20161130020043.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near Rajiv Chowk Metro Gate No 5",
@@ -855,7 +821,7 @@
                 "651-10320-20170304032701.jpg",
                 "651-10321-20170304032715.jpg"
               ]
-            },
+            }
           },
           {
             "landmark": "Near PVR Saket",
@@ -893,9 +859,9 @@
                 "42-10146-20170225042008.jpg",
                 "42-10147-20170225042053.jpg"
               ]
-            },
+            }
           }
-        ],
+        ]
       },
       "action_name": "cityListing"
     }
@@ -905,396 +871,82 @@
     "messages": "",
     "session": [],
     "metadata": {
-      "baseUrl": "https:\/\/www.fabhotels.com\/mapi",
-      "meta": {
-        "title": "Budget Hotels in New Delhi, Online Budget Hotel Booking in New Delhi - FabHotels",
-        "meta": [
-          {
-            "name": "description",
-            "content": "Book Budget Hotels in New Delhi, India - Get best deals on online booking of New Delhi Budget Hotels with FabHotels Photo Match Guarantee Free Wifi AC Room Free Breakfast Free Cancellation"
-          },
-          {
-            "name": "keywords",
-            "content": "fabhotels in new delhi, budget hotels in new delhi, hotels in new delhi, new delhi hotel booking online, book hotels in new delhi online, new delhi hotel list"
-          }
-        ],
-        "link": [
-          {
-            "rel": "canonical",
-            "href": "https:\/\/www.fabhotels.com\/hotels-in-new-delhi\/"
-          },
-          {
-            "rel": "alternate",
-            "href": "android-app:\/\/com.fabhotels.guests\/https\/www.fabhotels.com\/hotels-in-new-delhi\/"
-          },
-          {
-            "rel": "amphtml",
-            "href": "https:\/\/www.fabhotels.com\/amp\/hotels-in-new-delhi\/"
-          }
-        ]
-      },
       "data": {
-        "graceBookingHour": 4,
-        "localityListing": [
-          {
-            "name": "Central Delhi",
-            "propertiesCount": 7,
-            "url": "\/hotels-in-new-delhi\/?localities[]=112"
-          },
-          {
-            "name": "Karol Bagh",
-            "propertiesCount": 3,
-            "url": "\/hotels-in-new-delhi\/?localities[]=125"
-          },
-          {
-            "name": "New Delhi Railway Station",
-            "propertiesCount": 3,
-            "url": "\/hotels-in-new-delhi\/?localities[]=135"
-          },
-          {
-            "name": "South Delhi",
-            "propertiesCount": 11,
-            "url": "\/hotels-in-new-delhi\/?localities[]=142"
-          },
-          {
-            "name": "New Delhi Airport",
-            "propertiesCount": 2,
-            "url": "\/hotels-in-new-delhi\/?localities[]=250"
-          }
-        ],
         "propertyListing": [
           {
             "519": {
-              "actualPrice": "3,839",
+              "actualPrice": "3,839"
             },
             "157": {
-              "actualPrice": "2,439",
+              "actualPrice": "2,439"
             },
             "611": {
-              "actualPrice": "3,179",
+              "actualPrice": "3,179"
             },
             "596": {
-              "actualPrice": "1,909",
+              "actualPrice": "1,909"
             },
             "458": {
-              "actualPrice": "1,979",
+              "actualPrice": "1,979"
             },
             "740": {
-              "actualPrice": "2,549",
+              "actualPrice": "2,549"
             },
             "642": {
-              "actualPrice": "2,599",
+              "actualPrice": "2,599"
             },
             "487": {
-              "actualPrice": "1,509",
+              "actualPrice": "1,509"
             },
             "742": {
-              "actualPrice": "1,849",
+              "actualPrice": "1,849"
             },
             "534": {
-              "actualPrice": "1,459",
+              "actualPrice": "1,459"
             },
             "640": {
-              "actualPrice": "1,679",
+              "actualPrice": "1,679"
             },
             "790": {
-              "actualPrice": "1,709",
+              "actualPrice": "1,709"
             },
             "540": {
-              "actualPrice": "1,759",
+              "actualPrice": "1,759"
             },
             "662": {
-              "actualPrice": "1,849",
+              "actualPrice": "1,849"
             },
             "562": {
-              "actualPrice": "1,899",
+              "actualPrice": "1,899"
             },
             "739": {
-              "actualPrice": "1,929",
+              "actualPrice": "1,929"
             },
             "484": {
-              "actualPrice": "1,979",
+              "actualPrice": "1,979"
             },
             "599": {
-              "actualPrice": "2,149",
+              "actualPrice": "2,149"
             },
             "594": {
-              "actualPrice": "2,199",
+              "actualPrice": "2,199"
             },
             "792": {
-              "actualPrice": "2,449",
+              "actualPrice": "2,449"
             },
             "575": {
-              "actualPrice": "2,509",
+              "actualPrice": "2,509"
             },
             "651": {
-              "actualPrice": "2,519",
+              "actualPrice": "2,519"
             },
             "42": {
-              "actualPrice": "2,809",
+              "actualPrice": "2,809"
             }
-          }
-        ],
-      },
-      "action_name": "cityListing"
-    }
-  },
-  "hotel": {
-    "success": true,
-    "messages": "",
-    "metadata": {
-      "baseUrl": "http://local.fabhotels.com/mapi",
-      "meta": {
-        "title": "Budget Hotels in Fabhotel New Detail Page 1, Best Offers on Online Budget Hotel Booking in Fabhotel New Detail Page 1 @ FabHotels",
-        "meta": [
-          {
-            "name": "description",
-            "content": "Book Budget Hotels in Fabhotel New Detail Page 1 New Delhi - Search best hotels deals near me in Fabhotel New Detail Page 1 & Book with Fabhotels.com Photo Match Guarantee,  AC Rooms  Free Wifi."
-          },
-          {
-            "name": "keywords",
-            "content": "fabhotels, fabhotels Fabhotel New Detail Page 1, hotels in Fabhotel New Detail Page 1, hotel booking india, online hotel booking, hotels near Fabhotel New Detail Page 1, hotels near me in Fabhotel New Detail Page 1"
-          }
-        ],
-        "link": [
-          {
-            "rel": "canonical",
-            "href": "http://local.fabhotels.com/amp/hotels-in-new-delhi/fabhotel-new-detail-page-1/"
-          },
-          {
-            "rel": "amphtml",
-            "href": "http://local.fabhotels.com/amp/hotels-in-new-delhi/fabhotel-new-detail-page-1/"
           }
         ]
       },
-      "data": {
-        "graceBookingHour": 4,
-        "localityListing": [
-          {
-            "name": "Central Delhi",
-            "propertiesCount": 5,
-            "url": "/hotels-in-new-delhi/?localities[]=112"
-          },
-          {
-            "name": "Karol Bagh",
-            "propertiesCount": 2,
-            "url": "/hotels-in-new-delhi/?localities[]=125"
-          },
-          {
-            "name": "New Delhi Railway Station",
-            "propertiesCount": 2,
-            "url": "/hotels-in-new-delhi/?localities[]=135"
-          },
-          {
-            "name": "South Delhi",
-            "propertiesCount": 7,
-            "url": "/hotels-in-new-delhi/?localities[]=142"
-          },
-          {
-            "name": "New Delhi Airport",
-            "propertiesCount": 2,
-            "url": "/hotels-in-new-delhi/?localities[]=250"
-          }
-        ],
-        "propertyListing": [
-          {
-            "landmark": "Near Lotus Temple",
-            "name": "FabHotel Conclave Inn Nehru Place",
-            "city": "New Delhi",
-            "url": "http://local.fabhotels.com/mapi/hotels-in-new-delhi/fabhotel-conclave-inn-nehru-place.html",
-            "link": "/hotels-in-new-delhi/fabhotel-conclave-inn-nehru-place",
-            "actualPrice": 5569,
-            "coupon": {
-            },
-            "images": {
-              "baseUrl": "http://pimg.fabhotels.com/propertyimages_test/596/medium/",
-              "list": [
-                "596-14452-20170821012446.jpg",
-                "596-14454-20170821012506.jpg",
-                "596-14456-20170821012539.jpg",
-                "596-14458-20170821012605.jpg",
-                "596-14461-20170821012623.jpg",
-                "596-14462-20170821012648.jpg",
-                "596-14463-20170821012708.jpg",
-                "596-14464-20170821012816.jpg",
-                "596-14465-20170821012840.jpg",
-                "596-14466-20170821012920.jpg",
-                "596-14467-20170821012949.jpg",
-                "596-14468-20170821013014.jpg",
-                "596-14469-20170821013038.jpg",
-                "596-14470-20170821013104.jpg",
-                "596-14471-20170821013128.jpg",
-                "596-14472-20170821013148.jpg",
-                "596-14473-20170821013222.jpg",
-                "596-14474-20170821013249.jpg",
-                "596-14475-20170821013333.jpg",
-                "596-14476-20170821013355.jpg",
-                "596-14477-20170821013421.jpg",
-                "596-14478-20170821013507.jpg",
-                "596-14479-20170821013529.jpg",
-                "596-14480-20170821013618.jpg",
-                "596-14481-20170821013648.jpg",
-                "596-14482-20170821013727.jpg",
-                "596-14483-20170821013807.jpg",
-                "596-14484-20170821013842.jpg",
-                "596-14485-20170821013926.jpg",
-                "596-14486-20170821014012.jpg"
-              ]
-            },
-            "image": "http://pimg.fabhotels.com/propertyimages_test/596/medium/596-14452-20170821012446.jpg",
-          },
-          {
-            "landmark": "Greater Kailash",
-            "name": "Fabhotel New Detail Page 1",
-            "city": "New Delhi",
-            "url": "http://local.fabhotels.com/mapi/hotels-in-new-delhi/fabhotel-new-detail-page-1.html",
-            "link": "/hotels-in-new-delhi/fabhotel-new-detail-page-1",
-            "actualPrice": 1899,
-            "coupon": {
-            },
-            "images": {
-              "baseUrl": "http://pimg.fabhotels.com/propertyimages_test/723/medium/",
-              "list": [
-                "723-12430-20170705052651.jpg",
-                "723-12424-20170705052346.jpg",
-                "723-12423-20170705052316.jpg",
-                "723-12425-20170705052408.jpg",
-                "723-12432-20170705052827.jpg",
-                "723-12426-20170705052426.jpg",
-                "723-12429-20170705052550.jpg",
-                "723-12427-20170705052509.jpg",
-                "723-12431-20170705052755.jpg",
-                "723-12428-20170705052529.jpg",
-                "723-12433-20170705052918.jpg"
-              ]
-            },
-            "image": "http://pimg.fabhotels.com/propertyimages_test/723/medium/723-12430-20170705052651.jpg",
-          },
-          {
-            "landmark": "Jasola",
-            "name": "FabHotel Lorenz Jasola",
-            "city": "New Delhi",
-            "url": "http://local.fabhotels.com/mapi/hotels-in-new-delhi/fabhotel-lorenz-jasola.html",
-            "link": "/hotels-in-new-delhi/fabhotel-lorenz-jasola",
-            "actualPrice": 89,
-            "coupon": {
-            },
-            "images": {
-              "baseUrl": "http://pimg.fabhotels.com/propertyimages_test/682/medium/",
-              "list": [
-                "682-11611-20170512063654.jpg",
-                "682-11612-20170512063716.jpg",
-                "682-11613-20170512063734.jpg",
-                "682-11614-20170512063752.jpg",
-                "682-11615-20170512063823.jpg",
-                "682-11616-20170512063842.jpg",
-                "682-11617-20170512063916.jpg",
-                "682-11618-20170512063936.jpg",
-                "682-11619-20170512063951.jpg",
-                "682-11620-20170512064010.jpg",
-                "682-11621-20170512064949.jpg",
-                "682-11622-20170512065006.jpg",
-                "682-11623-20170512065036.jpg",
-                "682-11624-20170512065130.jpg",
-                "682-11625-20170512065154.jpg",
-                "682-11626-20170512065230.jpg",
-                "682-11627-20170512065254.jpg"
-              ]
-            },
-            "image": "http://pimg.fabhotels.com/propertyimages_test/682/medium/682-11611-20170512063654.jpg",
-          },
-          {
-            "landmark": "Green Park Market",
-            "name": "FabHotel Exotica Greenpark",
-            "city": "New Delhi",
-            "url": "http://local.fabhotels.com/mapi/hotels-in-new-delhi/fabhotel-exotica-greenpark.html",
-            "link": "/hotels-in-new-delhi/fabhotel-exotica-greenpark",
-            "actualPrice": 69,
-            "coupon": {
-            },
-            "images": {
-              "baseUrl": "http://pimg.fabhotels.com/propertyimages_test/594/medium/",
-              "list": [
-                "594-8046-20161202053153.jpg",
-                "594-8047-20161202053249.jpg",
-                "594-8048-20161202053304.jpg",
-                "594-8049-20161202053322.jpg",
-                "594-8050-20161202053337.jpg",
-                "594-8051-20161202053355.jpg",
-                "594-8052-20161202053410.jpg",
-                "594-8053-20161202053430.jpg",
-                "594-8054-20161202053455.jpg",
-                "594-8055-20161202053507.jpg",
-                "594-8056-20161202053525.jpg",
-                "594-8057-20161202053544.jpg",
-                "594-8058-20161202053555.jpg",
-                "594-8059-20161202053607.jpg",
-                "594-8060-20161202053619.jpg",
-                "594-8061-20161202053629.jpg",
-                "594-8062-20161202053646.jpg",
-                "594-8063-20161202053701.jpg"
-              ]
-            },
-            "image": "http://pimg.fabhotels.com/propertyimages_test/594/medium/594-8046-20161202053153.jpg",
-          },
-          {
-            "landmark": "Safdarjung Club",
-            "name": "FabHotel Fables Safdarjung",
-            "city": "New Delhi",
-            "url": "http://local.fabhotels.com/mapi/hotels-in-new-delhi/fabhotel-fables-safdarjung.html",
-            "link": "/hotels-in-new-delhi/fabhotel-fables-safdarjung",
-            "actualPrice": 69,
-            "coupon": {
-            },
-            "images": {
-              "baseUrl": "http://pimg.fabhotels.com/propertyimages_test/611/medium/",
-              "list": [
-                "611-20170814042935.jpg"
-              ]
-            },
-            "image": "http://pimg.fabhotels.com/propertyimages_test/611/medium/611-20170814042935.jpg",
-          },
-          {
-            "landmark": "Opp World Trade Center",
-            "name": "FabHotel Check'In By Oran CP",
-            "city": "New Delhi",
-            "url": "http://local.fabhotels.com/mapi/hotels-in-new-delhi/fabhotel-checkin-by-oran-cp.html",
-            "link": "/hotels-in-new-delhi/fabhotel-checkin-by-oran-cp",
-            "actualPrice": 219,
-            "coupon": {
-            },
-            "images": {
-              "baseUrl": "http://pimg.fabhotels.com/propertyimages_test/519/medium/",
-              "list": [
-                "519-10149-20170225044401.jpg",
-                "519-9568-20170207012805.jpg",
-                "519-9569-20170207012825.jpg",
-                "519-9570-20170207012844.jpg",
-                "519-9571-20170207012902.jpg",
-                "519-9572-20170207012921.jpg",
-                "519-9573-20170207012941.jpg",
-                "519-9574-20170207013049.jpg",
-                "519-9575-20170207013108.jpg",
-                "519-9576-20170207013127.jpg",
-                "519-9577-20170207013300.jpg",
-                "519-9578-20170207013320.jpg",
-                "519-9579-20170207013427.jpg",
-                "519-9580-20170207013443.jpg",
-                "519-9581-20170207013500.jpg",
-                "519-9582-20170207013532.jpg",
-                "519-9583-20170207013551.jpg",
-                "519-9584-20170207013609.jpg",
-                "519-9585-20170207013629.jpg",
-                "519-9586-20170207013651.jpg",
-                "519-9587-20170207013714.jpg",
-                "519-9588-20170207013801.jpg"
-              ]
-            },
-            "image": "http://pimg.fabhotels.com/propertyimages_test/519/medium/519-10149-20170225044401.jpg",
-          }
-        ],
-      },
-      "action_name": "localityListing"
+      "action_name": "cityListing"
     }
   }
 }
