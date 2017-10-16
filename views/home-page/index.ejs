@@ -1,17 +1,57 @@
 <!doctype html>
 <html amp lang="en">
 <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Hello, AMPs</title>
+    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 <body>
-<p>
-    It fetches the apis from localhsot:3000. To run api, issue command
-    npm run api.
-    It loops through the list of hotels.
-    Each hotel has a gallery of image, meta data and price. Price is dynamic and should be fetched from server eaach time.
-    Click on this link.
-</p>
-<a href="/hotels-in-new-delhi">Hotels in New Delhi</a>
-</body>
+    <h1>FabHotels AMP Boilerplate</h1>
+    <p>
+        To run api, issue command. It fetches the apis from localhsot:3000.<br>
+        npm run api<br><br>
 
+        Click on this link. It loops through the list of hotels in New Delhi.
+        Each hotel has a gallery of image, description and price. Price is dynamic and is fetched from server dynamically.<br>
+        <a href="/hotels-in-new-delhi">Hotels in New Delhi</a><br>
+    </p>
+
+    <br><br>
+    <b>View More Example</b>
+    <br>
+    <p [text]="'inital text ' + content">This is the initial text and will not be seen again!
+        <button on="tap:AMP.setState({content: 'along with added text'})">view more</button>
+    </p>
+
+
+    <br><br>
+    <b>View More/Less Example</b>
+    <br>
+    inital text
+    <button on="tap:AMP.setState({
+                    description: {
+                    showMore: 'on'
+                    }
+                })">view more</button>
+
+    <amp-list [state]="description" layout="fixed-height" height="956" src="https://ampbyexample.com/json/cart.json">
+        <template type="amp-mustache">
+            {{#showMore}}
+            along with added text
+            <button on="tap:AMP.setState({
+                    description: {
+                    showMore: null
+                    }
+             })">View Less</button>
+            {{/showMore}}
+        </template>
+    </amp-list>
+
+</body>
+</html>
 
